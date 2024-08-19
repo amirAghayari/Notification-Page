@@ -44,3 +44,67 @@ body {
   background-color: var(--blue);
   color: var(--light-grayish);
 }
+
+/* main notification */
+.main--1 {
+  margin-top: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.main-div-1,
+.main-div-2,
+.main-div-3,
+.main-div-4,
+.main-div-5,
+.main-div-6,
+.main-div-7 {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-inside {
+  display: flex;
+  align-items: center;
+}
+
+.mode,
+.message {
+  font-size: 1.6rem;
+}
+
+.name {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--verydark-gray);
+}
+.name:hover {
+  color: var(--blue);
+  cursor: pointer;
+}
+
+.mode {
+  color: var(--dark-grayish);
+  margin: 0 0.8rem 0 0.8rem;
+}
+
+.message {
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  white-space: nowrap;
+  color: var(--blue);
+}
+
+.last-online {
+  color: var(--dark-grayish);
+  font-size: 1.4rem;
+}
